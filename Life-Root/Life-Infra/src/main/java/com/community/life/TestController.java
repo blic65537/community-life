@@ -17,7 +17,7 @@ public class TestController {
 	private static final Logger logger = LoggerFactory.getLogger(TestController.class);
 
 	/**
-	 * Simply selects the home view to render by returning its name.
+	 * test
 	 */
 	@RequestMapping(value = "/test.do", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
