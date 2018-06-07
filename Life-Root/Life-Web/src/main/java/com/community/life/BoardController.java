@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value="/board")
 public class BoardController {
 	
-	@RequestMapping(value="/lol")
+	@RequestMapping(value="/lol.do")
 	public String lolBoard() {
 		return "lolBoard";
 	}
