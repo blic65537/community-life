@@ -1,4 +1,4 @@
-package com.community.life;
+package com.community.life.board;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +12,7 @@ public class BoardController {
 		return "lolBoard";
 	}
 	
-	@RequestMapping(value="/test")
+	@RequestMapping(value="/test.do")
 	public String testBoard() {
 		return "testBoard";
 	}
